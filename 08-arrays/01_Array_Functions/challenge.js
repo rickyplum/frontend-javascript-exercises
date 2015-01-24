@@ -1,8 +1,14 @@
 module.exports.reversePlusOne = function(r) {
-  var array = r;
-  array.reverse();
-  array.unshift(1);
-  return array;
+  if (r.length > 1) {
+    var myVar = r.length - 1;
+    var a = [];
+    for ( i = 0 ; i <= myVar ; i++ ) {
+      a.unshift(r[i])
+    }
+    
+    a.unshift(1);
+    return a;
+  }
 }
 
 module.exports.plusesEverywhere = function(r) {
