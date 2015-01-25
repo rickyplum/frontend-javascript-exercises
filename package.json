@@ -9,12 +9,6 @@
 		"underscore": "1.6.0"
 	},
 	"description": "Student javascript exercises",
-	"folders":
-	[
-		{
-			"path": "/Users/Ricky/Nitrous/silver-exploder-83/frontend-javascript-exercises"
-		}
-	],
 	"name": "BlocJSExercises",
 	"version": "0.0.0"
 }

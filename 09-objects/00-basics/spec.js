@@ -1,4 +1,4 @@
-var expect    = require("chai").expect;
+  var expect    = require("chai").expect;
 var challenge = require("./challenge.js");
 var _ = require('underscore');
 
